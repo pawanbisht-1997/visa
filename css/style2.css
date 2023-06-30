@@ -229,18 +229,24 @@ header .logo{
 /* flag box  */
 .flag_box .box{
   width: 13%;
-  border: 1px solid #dddbdb;
+  /* border: 1px solid #dddbdb; */
   padding: 15px 10px;
   text-align: center;
-  box-shadow: 0 0 20px -10px rgba(0,0,0,.8);
+  /* box-shadow: 0 0 20px -10px rgba(0,0,0,.8); */
   margin: 4px;
-  outline: 1px solid #040c392b;
+  /* outline: 1px solid #040c392b; */
   outline-offset: -8px;
   border-radius: 5px;
   margin-bottom: 12px;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+.flag_box .box:hover{
+  transform: translateY(-3px);
 }
 .flag_box .box img {
-  width: 45%;
+
+  width: 50%;
 }
 .flag_box .box h6 {
   margin-top: 17px;
