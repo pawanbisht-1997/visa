@@ -163,7 +163,7 @@ header .logo{
 .banner h1{
   font-size: 60px;
   color: #fff;
-  font-family: NotoSans-ExtraBold;
+
 }
 .banner .glbl_btn{
   background-color: #040c39;
@@ -221,12 +221,12 @@ header .logo{
   color: #fff;
   font-family: NotoSans-ExtraBold;
   height: 90vmin;
-  left: 35%;
+  left: 30%;
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
   width: 90vmin;
-  font-size: 65px;
+  font-size: 60px;
   text-transform: capitalize;
 }
 .animated-title > div {
@@ -241,6 +241,7 @@ header .logo{
 }
 .animated-title > div div span {
   display: block;
+  font-family: NotoSans-SemiBold;
 }
 .animated-title > div.text-top {
   border-bottom: 1px solid #fff;
@@ -265,6 +266,7 @@ header .logo{
   animation-fill-mode: forwards;
   top: 0;
   transform: translate(0, -100%);
+  font-family: NotoSans-SemiBold;
 }
 
 /* flag box  */
@@ -282,6 +284,10 @@ header .logo{
   transition: all ease-in-out 0.5s;
   cursor: pointer;
 }
+.flag_box h2{
+    font-size: 40px;
+    font-weight: 700;
+}
 .flag_box .box:hover{
   transform: translateY(-3px);
 }
@@ -295,8 +301,24 @@ header .logo{
   font-family: NotoSans-SemiBold;
 }
 .second-flag-box{
-  background-color: #ecececcf;
+  background-image: -webkit-linear-gradient(272deg, rgb(242 242 242) 0%, rgb(255 255 255 / 82%) 50%);
   padding-bottom: 30px;
+  position: relative;
+  padding-top: 30px;
+}
+.second-flag-box .bg_img{
+  background-image: url(../img/countries-one-bg.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.5;
+
 }
 
 
