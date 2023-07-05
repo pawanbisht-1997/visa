@@ -182,7 +182,7 @@ header .logo{
 }
 .banner .banner_img{
   background-image: linear-gradient(to right, rgb(226 9 53),rgb(4 12 57 / 46%)), url(../img/banner.jpg);
-  height: 70vh;
+  height: 75vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
