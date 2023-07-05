@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: NotoSans-Regular;
+    font-family: Poppins-Regular;
 }
 
 :root{
@@ -13,8 +13,16 @@
     display: flex;
 }
 
-p{
-    margin: 0;
+p {
+  margin: 0;
+  color: #777777;
+  font-size: 15px;
+}
+.box-shadow{
+  box-shadow: 0 0 20px -10px rgba(0,0,0,.8);
+  outline: 1px solid #97979757;
+  outline-offset: -6px;
+  padding: 25px 18px;
 }
 ul{
     margin: 0;
@@ -71,36 +79,36 @@ select.form-control {
   color: #5f5d5d;
 }
 @font-face {
-    font-family: NotoSans-Black;
-    src: url(../Noto_Sans/NotoSans-Black.ttf);
+    font-family: Poppins-Black;
+    src: url(../Poppins/Poppins-Black.ttf);
   }
   @font-face {
-    font-family: NotoSans-Bold;
-    src: url(../Noto_Sans/NotoSans-Bold.ttf);
+    font-family: Poppins-Bold;
+    src: url(../Poppins/Poppins-Bold.ttf);
   }
   @font-face {
-    font-family: NotoSans-ExtraBold;
-    src: url(../Noto_Sans/NotoSans-ExtraBold.ttf);
+    font-family: Poppins-ExtraBold;
+    src: url(../Poppins/Poppins-ExtraBold.ttf);
   }
   @font-face {
-    font-family: NotoSans-ExtraLight;
-    src: url(../Noto_Sans/NotoSans-ExtraLight.ttf);
+    font-family: Poppins-ExtraLight;
+    src: url(../Poppins/Poppins-ExtraLight.ttf);
   }
   @font-face {
-    font-family: NotoSans-Medium;
-    src: url(../Noto_Sans/NotoSans-Medium.ttf);
+    font-family: Poppins-Light;
+    src: url(../Poppins/Poppins-Light.ttf);
   }
   @font-face {
-    font-family: NotoSans-Regular;
-    src: url(../Noto_Sans/NotoSans-Regular.ttf);
+    font-family: Poppins-Medium;
+    src: url(../Poppins/Poppins-Medium.ttf);
   }
   @font-face {
-    font-family: NotoSans-SemiBold;
-    src: url(../Noto_Sans/NotoSans-SemiBold.ttf);
+    font-family: Poppins-Regular;
+    src: url(../Poppins/Poppins-Regular.ttf);
   }
   @font-face {
-    font-family: NotoSans-Thin;
-    src: url(../Noto_Sans/NotoSans-Thin.ttf);
+    font-family: Poppins-SemiBold;
+    src: url(../Poppins/Poppins-SemiBold.ttf);
   }
 
   section{
@@ -147,7 +155,7 @@ header nav ul li{
 }
 header nav ul li a{
   color: #5f5d5d;
-    font-family: NotoSans-SemiBold;
+
     font-size: 18px;
 }
 header .logo{
@@ -241,7 +249,7 @@ header .logo{
 }
 .animated-title > div div span {
   display: block;
-  font-family: NotoSans-SemiBold;
+
 }
 .animated-title > div.text-top {
   border-bottom: 1px solid #fff;
@@ -266,15 +274,20 @@ header .logo{
   animation-fill-mode: forwards;
   top: 0;
   transform: translate(0, -100%);
-  font-family: NotoSans-SemiBold;
+
 }
 
 /* flag box  */
+.flag_box .box-parent{
+  width: 13%;
+  display: inline-block;
+}
+
 .flag_box:nth-child(2){
   background-color: #ececec96;
 }
 .flag_box .box{
-  width: 13%;
+  width: 100%;
   padding: 15px 10px;
   text-align: center;
   margin: 4px;
@@ -298,7 +311,8 @@ header .logo{
 .flag_box .box h6 {
   margin-top: 17px;
   font-size: 14px;
-  font-family: NotoSans-SemiBold;
+  color: #595757;
+
 }
 .second-flag-box{
   background-image: -webkit-linear-gradient(272deg, rgb(242 242 242) 0%, rgb(255 255 255 / 82%) 50%);
@@ -453,7 +467,9 @@ header .logo{
 .why_choose .container .row .col-sm-4:last-child .box::before{
    content: unset;
 }
-
+.why_choose p{
+  color: #fff;
+}
 /* cta */
 .cta{
   position: relative;
@@ -601,7 +617,7 @@ footer ul h5{
 footer ul li a{
   color: #6d6a6a;
   font-size: 15px;
-  font-family: NotoSans-Medium;
+
 }
 footer ul li{
   margin-bottom: 11px;
@@ -686,4 +702,63 @@ footer .container .ft-box:first-child p{
 }
 footer .container .ft-box:last-child{
   width: 20%;
+}
+footer .copyright p{
+  color: #fff;
+  }
+/* detail page */
+.detail-box h3{
+  font-weight: 600;
+  padding-left: 25px;
+  background-color: #e20935;
+  padding: 15px 15px;
+  color: #fff;
+}
+.detail-box .left .box-shadow ul li {
+  list-style: none;
+  list-style-type: auto;
+  color: #626262;
+  font-size: 15px;
+  margin-bottom: 9px;
+  line-height: 23px;
+  padding-left: 2px;
+}
+.detail-box .left .box-shadow ul{
+  margin-left: 20px;
+}
+.detail-box .left .box-shadow h5{
+  font-weight: 600;
+  color: #5e5e5e;
+}
+.detail-box .table>thead {
+    background-color: #e20935;
+    color: #fff;
+    text-align: center;
+}
+table{
+  border-color: #98989852 !important;
+}
+.detail-box .table td{
+  text-align: center;
+}
+.table>:not(:last-child)>:last-child>* {
+  font-family: Poppins-Light !important;
+}
+.detail-box .contact .right .col-md-6{
+  width: 100% !important;
+}
+.detail-box .contact .right{
+  background-color: #040c39;
+  box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  outline: 1px solid #ffffff6e;
+  outline-offset: -7px;
+  text-align: center;
+  padding-top: 25px;
+}
+.detail-box .contact .right form{
+  padding: 20px 20px;
+}
+.detail-box .contact .right h4{
+  color: #fff;
 }
