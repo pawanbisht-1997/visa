@@ -1,0 +1,905 @@
+<?php include 'inc/head.php';?>
+<!-- banner  -->
+<section class="banner">
+    <div class="banner_img">
+    </div>
+    <div class="animated-title">
+        <div class="text-top">
+            <div>
+                <span>Your Reliable</span>
+                <span>Tourist Visa</span>
+            </div>
+        </div>
+        <div class="text-bottom">
+            <div>company</div>
+            <div>
+                <a href="#" class="glbl_btn">Apply Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--e-visa flag box  -->
+<section class="flag_box">
+    <div class="container">
+        <div class="heading">
+            <h2>e-Visa (Online)</h2>
+        </div>
+        <div class="flex flex-wrap justify-content-between">
+            <a href="detail-page.php" class="box-parent">
+                <div class="box">
+                    <img src="img/AntiguaAndBarbudaflag.png" alt="">
+                    <h6>ANTIGUA AND BARBUDA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Argentinaflag.jpg" alt="">
+                    <h6>ARGENTINA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Armeniaflag201211022121.jpg" alt="">
+                    <h6>ARMENIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Australiaflag201211022229.jpg" alt="">
+                    <h6>AUSTRALIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Azerbaijanflag201211022526.jpg" alt="">
+                    <h6>AZERBAIJAN</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Bahrainflag201211022550.jpg" alt="">
+                    <h6>BAHRAIN</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Cambodiaflag201211022947.jpg" alt="">
+                    <h6>CAMBODIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Djiboutiflag201211023554.png" alt="">
+                    <h6>DJIBOUTI</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Ethiopiaflag201211023805.jpg" alt="">
+                    <h6>ETHIOPIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Gabonflag201211023955.png" alt="">
+                    <h6>GABON</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Georgiaflag201211024039.jpg" alt="">
+                    <h6>GEORGIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/HONGKONGflag201211024321.jpg" alt="">
+                    <h6>HONG KONG</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/IvoryCoastflag201211024716.png" alt="">
+                    <h6>IVORY COAST</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Kenyaflag201211025027.jpg" alt="">
+                    <h6>KENYA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Kuwaitflag201211025102.jpg" alt="">
+                    <h6>KUWAIT</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Kyrgyzstanflag201211041816.png" alt="">
+                    <h6>KYRGYZSTAN</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Malaysiaflag201211031146.jpg" alt="">
+                    <h6>MALAYSIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Moldovaflag201211031347.png" alt="">
+                    <h6>MOLDOVA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Myanmarflag201211031633.jpg" alt="">
+                    <h6>MYANMAR</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/NewZealandflag201211031837.jpg" alt="">
+                    <h6>NEW ZEALAND</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Omanflag201211032039.jpg" alt="">
+                    <h6>OMAN</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Qatarflag201211032449.jpg" alt="">
+                    <h6>QATAR</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Rwandaflag201211041747.png" alt="">
+                    <h6>RWANDA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/SaoTomeAndPrincipeflag201211033010.png" alt="">
+                    <h6>SAO TOME AND PRINCIPE</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/SriLankaflag201211033646.jpg" alt="">
+                    <h6>SRI LANKA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/STKITTSANDNEVISflag201211033714.png" alt="">
+                    <h6>ST KITTS AND NEVIS</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Taiwanflag201211033956.jpg" alt="">
+                    <h6>TAIWAN</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Tajikistanflag201211041651.jpeg" alt="">
+                    <h6>TAJIKISTAN</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Tanzaniaflag201211034307.jpg" alt="">
+                    <h6>TANZANIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Thailandflag201211034408.jpg" alt="">
+                    <h6>THAILAND</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Turkeyflag201211034702.jpg" alt="">
+                    <h6>TURKEY</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Tanzaniaflag201211034307.jpg" alt="">
+                    <h6>TANZANIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Thailandflag201211034408.jpg" alt="">
+                    <h6>THAILAND</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Turkeyflag201211034702.jpg" alt="">
+                    <h6>TURKEY</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Ugandaflag201211034844.jpg" alt="">
+                    <h6>UGANDA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Ukraineflag201210045920.jpg" alt="">
+                    <h6>UKRAINE</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/UAEflag201211034811.jpg" alt="">
+                    <h6>UNITED ARAB EMIRATES</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Uzbekistanflag201211035518.jpg" alt="">
+                    <h6>UZBEKISTAN</h6>
+
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Vietnamflag201211035854.jpg" alt="">
+                    <h6>VIETNAM</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Zambiaflag201211035934.jpg" alt="">
+                    <h6>ZAMBIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Zimbabweflag201211035950.jpg" alt="">
+                    <h6>ZIMBABWE</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+<!--stamped flag box  -->
+<section class="flag_box second-flag-box">
+    <div class="bg_img">
+    </div>
+    <div class="container">
+        <div class="heading">
+            <h2>Stamped Visa (Offline)</h2>
+        </div>
+        <div class="flex flex-wrap justify-content-between">
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="./img/Argentinaflag.jpg" alt="">
+                    <h6>ARGENTINA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="./img/Armeniaflag201211022121.jpg" alt="">
+                    <h6>ARMENIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Austriaflag201211022336.png" alt="">
+                    <h6>AUSTRIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag_of_Algeria.svg.png" alt="">
+                    <h6>ALGERIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Belgiumflag201211022657.jpg" alt="">
+                    <h6>BELGIUM</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/bagladesh.webp" alt="">
+                    <h6>BANGLADESH</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/brazil.png" alt="">
+                    <h6>BRAZIL</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Bulgaria.svg.png" alt="">
+                    <h6>BULGARIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/canada.svg" alt="">
+                    <h6>CANADA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-China.webp" alt="">
+                    <h6>CHINA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/chille.jpg" alt="">
+                    <h6>CHILE</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Colombia.svg.png" alt="">
+                    <h6>COLOMBIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/CROATIA.jpg" alt="">
+                    <h6>CROATIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Cuba.webp" alt="">
+                    <h6>CUBA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Cyprus.webp" alt="">
+                    <h6>CYPRUS</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/CzechRepublicflag201211023329.jpg" alt="">
+                    <h6>CZECH REPUBLIC</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Denmarkflag201211023359.jpg" alt="">
+                    <h6>DENMARK
+                    </h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag_of_Egypt.svg.png" alt="">
+                    <h6>EGYPT</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Estoniaflag201211023708.png" alt="">
+                    <h6>ESTONIA</h6>
+                </div>
+            </a>
+
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Finlandflag201211023845.jpg" alt="">
+                    <h6>FINLAND
+                    </h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Franceflag201211023921.jpg" alt="">
+                    <h6>FRANCE</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/GHANA.png" alt="">
+                    <h6>GHANA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Germanyflag201211024123.jpg" alt="">
+                    <h6>GERMANY</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Greeceflag201211024236.jpg" alt="">
+                    <h6>GREECE</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Hungaryflag201211024359.jpg" alt="">
+                    <h6>HUNGARY</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Icelandflag201211024429.png" alt="">
+                    <h6>ICELAND</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Italyflag201211024630.jpg" alt="">
+                    <h6>ITALY</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Iran.webp" alt="">
+                    <h6>IRAN</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Iraq.webp" alt="">
+                    <h6>IRAQ</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/FLAG-Ireland.webp" alt="">
+                    <h6>IRELAND</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag_of_Israel.svg.png" alt="">
+                    <h6>ISRAEL</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag_of_Italy.svg.png" alt="">
+                    <h6>ITALY</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Jamaica.webp" alt="">
+                    <h6>JAMAICA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag_of_Japan.svg.png" alt="">
+                    <h6>JAPAN</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Jordan.webp" alt="">
+                    <h6>JORDAN</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag_of_Kazakhstan.svg.png" alt="">
+                    <h6>KAZAKHSTAN</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Laos.webp" alt="">
+                    <h6>LAOS</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Latviaflag201211025505.jpg" alt="">
+                    <h6>LATVIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag_of_Lebanon.svg.png" alt="">
+                    <h6>LEBANON</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Libya.webp" alt="">
+                    <h6>LIBYA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Lithuaniaflag201211025650.png" alt="">
+                    <h6>LITHUANIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Luxembourgflag201211031005.jpg" alt="">
+                    <h6>LUXEMBOURG</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/MADAGASCAR.jpg" alt="">
+                    <h6>MADAGASCAR</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Malaysia.webp" alt="">
+                    <h6>MALAYSIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Maltaflag201211031237.jpg" alt="">
+                    <h6>MALTA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Mexico.webp" alt="">
+                    <h6>MEXICO</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Mongolia.webp" alt="">
+                    <h6>MONGOLIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/1200px-Flag_of_Morocco_(large_stroke).svg.png" alt="">
+                    <h6>MOROCCO</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Mozambique.webp" alt="">
+                    <h6>MOZAMBIQUE</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Netherlandsflag201211031717.jpg" alt="">
+                    <h6>NETHERLANDS
+                    </h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Norwayflag201211032001.jpg" alt="">
+                    <h6>NORWAY</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag_of_New_Zealand.svg.png" alt="">
+                    <h6>NEW ZEALAND</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Nigeria.webp" alt="">
+                    <h6>NIGERIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-North-Korea.webp" alt="">
+                    <h6>NORTH KOREA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Paraguay.webp" alt="">
+                    <h6>PARAGUAY</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Peru.webp" alt="">
+                    <h6>PERU</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Philippines.webp" alt="">
+                    <h6>PHILIPPINES</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Polandflag201211032329.jpg" alt="">
+                    <h6>POLAND</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Portugalflag201211032354.jpg" alt="">
+                    <h6>PORTUGAL</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag_of_Romania.svg.png" alt="">
+                    <h6>ROMANIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Russia.webp" alt="">
+                    <h6>RUSSIAN FEDERATION</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Saudi-Arabia.webp" alt="">
+                    <h6>SAUDI ARABIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/singapore.jpg" alt="">
+                    <h6>SINGAPORE</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-South-Africa.webp" alt="">
+                    <h6>SOUTH AFRICA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/SOUTH KOREA.webp" alt="">
+                    <h6>SOUTH KOREA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Slovakiaflag201211033225.jpg" alt="">
+                    <h6>SLOVAKIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Sloveniaflag201211033259.png" alt="">
+                    <h6>SLOVENIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Spainflag201211033604.jpg" alt="">
+                    <h6>SPAIN</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Swedenflag201211033744.png" alt="">
+                    <h6>SWEDEN</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Switzerlandflag201211033811.jpg" alt="">
+                    <h6>SWITZERLAND</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Schengen.webp" alt="">
+                    <h6>Schengen</h6>
+                </div>
+            </a>
+
+
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Taiwanflag201211033956.jpg" alt="">
+                    <h6>TAIWAN</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Thailandflag201211034408.jpg" alt="">
+                    <h6>THAILAND</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Trinidad-and-Tobago.webp" alt="">
+                    <h6>TRINIDAD AND TOBAGO</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Tunisia.webp" alt="">
+                    <h6>TUNISIA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Turkeyflag201211034702.jpg" alt="">
+                    <h6>TURKEY</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Turkmenistan.webp" alt="">
+                    <h6>TURKMENISTAN</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Ukraineflag201210045920.jpg" alt="">
+                    <h6>UKRAINE</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag_of_the_United_Kingdom_(1-2).svg.png" alt="">
+                    <h6>UNITED KINGDOM</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-United-States-of-America.webp" alt="">
+                    <h6>UNITED STATES</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Uzbekistanflag201211035518.jpg" alt="">
+                    <h6>UZBEKISTAN</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+                    <img src="img/Flag-Venezuela.webp" alt="">
+                    <h6>VENEZUELA</h6>
+                </div>
+            </a>
+            <a href="#" class="box-parent">
+                <div class="box">
+
+                </div>
+            </a>
+            <div class="box-parent">
+                <div class="box">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- why choose us  -->
+<section class="why_choose">
+    <div class="container">
+        <div class="heading">
+            <h2>WHY VISA LOUNGE</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+
+                <div class="box">
+                    <img src="img/online-application.png" alt="">
+                    <h4>Online
+                        Applications</h4>
+                    <p>
+                        As the online Visa Expert, we
+                        provide a stress-free visa
+                        application process...
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+
+                <div class="box">
+                    <img src="img/24-hours-support.png" alt="">
+                    <h4>24x7
+                        Support</h4>
+                    <p>
+                        As the online Visa Expert, we
+                        provide a stress-free visa
+                        application process...
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+
+                <div class="box">
+                    <img src="img/travel-insurance.png" alt="">
+                    <h4>Travel
+                        Insurance</h4>
+                    <p>
+                        As the online Visa Expert, we
+                        provide a stress-free visa
+                        application process...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- cta  -->
+<section class="cta">
+    <div class="container">
+        <div class="cta_inner">
+            <div class="cta_bg_img">
+            </div>
+            <div class="img_one img-bounce">
+                <img src="./img/excellence-one-shape-1.png" alt="">
+            </div>
+            <div class="img_two img-bounce2">
+                <img src="./img/excellence-one-shape-2.png" alt="">
+            </div>
+            <div class="cta_contant">
+                <h2>
+                    Excellence
+                    in Visa Services
+                </h2>
+                <a href="#" class="glbl_btn">Apply for Visa</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact  -->
+<section class="contact">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-sm-6">
+                <div class="left">
+                    <div class="handshake">
+                        <img src="img/deal.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Most Trusted Visa Agency!</h2>
+                        <a href="#" class="glbl_btn"><i class="fa fa-phone" aria-hidden="true"></i> +91
+                            9810820707</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="right">
+                    <h3>Request a Appointment</h3>
+                    <?php include 'inc/form.php';?>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="addres_map">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d56016.91566914513!2d77.23223252411651!3d28.6580050462371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d28.658879199999998!2d77.22901879999999!4m5!1s0x390cfcabcf3ccb61%3A0x4fed9946cb44dee7!2saerospaceholidays!3m2!1d28.651411399999997!2d77.3054853!5e0!3m2!1sen!2sin!4v1688452696729!5m2!1sen!2sin"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<?php include 'inc/footer.php';?>
